@@ -1,0 +1,67 @@
+================================================================================
+TEST EXECUTION RECORD: TC-07
+Name:                 edge-multiple-passes-same-sat
+Type:                 Edge Case
+Acceptance Criterion: AC 7: Single alert on first detection; subsequent passes update times
+Started At:           2026-11-05T21:10:32.305Z
+Completed At:         2026-11-05T21:10:32.370Z
+Result:               PASSED
+================================================================================
+
+ASSERTIONS:
+  [PASS] Single new achievement logged in summary
+  [PASS] Subsequent pass logged in summary
+  [PASS] Start time updated to the latest SIG pass (16:00:00)
+  [PASS] End time updated to the latest SIG pass (16:30:00)
+  [PASS] SPUT updated to the latest pass (4444)
+
+EXECUTION LOG:
+[2026-11-05T21:10:32.369Z] CLI Output:
+============================================================
+   Post-Launch Requirements (PLR) Verification Program      
+   Visual Studio Code Integrated Terminal Environment       
+============================================================
+
+
+Active Configuration:
+  Task Log:    C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC07_mock_passes.xlsx
+  PLR File:    C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC07_plr.xlsx
+  Operator:    Sgt_Smith
+
+[INFO] PLR document not found. A new one will be created at: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC07_plr.xlsx
+[INFO] Reading task log: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC07_mock_passes.xlsx...
+  Found 4 tasks in log.
+
+
+======================================================================
+ [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET!
+======================================================================
+  Task Number:    #2
+  Satellite:      SIMSAT-01
+  SSC:            51001
+  SPUT:           2222
+  Signal ID:      SIG-1001
+  Start Time:     04:00:00
+  Stop Time:      04:20:00
+----------------------------------------------------------------------
+  [AUTO-CONFIRM] Operator confirmation defaulted to: y
+  -> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED
+======================================================================
+
+------------------------------------------------------------
+Processing Summary:
+  Newly Achieved PLR Satellites: 1
+  Subsequent Passes Updated:     1
+  Total Satellites Tracked:      1
+------------------------------------------------------------
+
+[DONE] Successfully updated PLR document: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC07_plr.xlsx
+
+
+  Assertion: Single new achievement logged in summary -> [PASS]
+  Assertion: Subsequent pass logged in summary -> [PASS]
+  Assertion: Start time updated to the latest SIG pass (16:00:00) -> [PASS]
+  Assertion: End time updated to the latest SIG pass (16:30:00) -> [PASS]
+  Assertion: SPUT updated to the latest pass (4444) -> [PASS]
+
+================================================================================

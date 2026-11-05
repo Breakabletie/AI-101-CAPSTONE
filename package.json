@@ -1,0 +1,11 @@
+{
+  "name": "ai-capstone-plr",
+  "version": "1.0.0",
+  "description": "Post-Launch Requirements (PLR) Program - Capstone Project",
+  "main": "tools/check_plr_tasks.js",
+  "scripts": {
+    "start": "node tools/check_plr_tasks.js",
+    "plr": "node tools/check_plr_tasks.js",
+    "test": "node tools/run_test_suite.js"
+  }
+}

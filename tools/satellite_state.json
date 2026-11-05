@@ -1,0 +1,104 @@
+﻿{
+    "LastDate":  "2026-11-07",
+    "NextSatIndex":  25,
+    "NextSignalIndex":  1121,
+    "Satellites":  [
+                       {
+                           "Name":  "SIMSAT-01",
+                           "SSC":  51001
+                       },
+                       {
+                           "Name":  "SIMSAT-02",
+                           "SSC":  51002
+                       },
+                       {
+                           "Name":  "SIMSAT-03",
+                           "SSC":  51003
+                       },
+                       {
+                           "Name":  "SIMSAT-04",
+                           "SSC":  51004
+                       },
+                       {
+                           "Name":  "SIMSAT-05",
+                           "SSC":  51005
+                       },
+                       {
+                           "Name":  "SIMSAT-06",
+                           "SSC":  51006
+                       },
+                       {
+                           "Name":  "SIMSAT-07",
+                           "SSC":  51007
+                       },
+                       {
+                           "Name":  "SIMSAT-08",
+                           "SSC":  51008
+                       },
+                       {
+                           "Name":  "SIMSAT-09",
+                           "SSC":  51009
+                       },
+                       {
+                           "Name":  "SIMSAT-10",
+                           "SSC":  51010
+                       },
+                       {
+                           "Name":  "SIMSAT-11",
+                           "SSC":  51011
+                       },
+                       {
+                           "Name":  "SIMSAT-12",
+                           "SSC":  51012
+                       },
+                       {
+                           "Name":  "SIMSAT-13",
+                           "SSC":  51013
+                       },
+                       {
+                           "Name":  "SIMSAT-14",
+                           "SSC":  51014
+                       },
+                       {
+                           "Name":  "SIMSAT-15",
+                           "SSC":  51015
+                       },
+                       {
+                           "Name":  "SIMSAT-16",
+                           "SSC":  51016
+                       },
+                       {
+                           "Name":  "SIMSAT-17",
+                           "SSC":  51017
+                       },
+                       {
+                           "Name":  "SIMSAT-18",
+                           "SSC":  51018
+                       },
+                       {
+                           "Name":  "SIMSAT-19",
+                           "SSC":  51019
+                       },
+                       {
+                           "Name":  "SIMSAT-20",
+                           "SSC":  51020
+                       },
+                       {
+                           "Name":  "SIMSAT-21",
+                           "SSC":  51021
+                       },
+                       {
+                           "Name":  "SIMSAT-22",
+                           "SSC":  51022
+                       },
+                       {
+                           "Name":  "SIMSAT-23",
+                           "SSC":  51023
+                       },
+                       {
+                           "Name":  "SIMSAT-24",
+                           "SSC":  51024
+                       }
+                   ],
+    "RunCount":  2
+}

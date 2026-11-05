@@ -1,0 +1,73 @@
+================================================================================
+TEST EXECUTION RECORD: TC-06
+Name:                 edge-operator-declined
+Type:                 Edge Case
+Acceptance Criterion: AC 6: Record INCOMPLETE when operator declines follow-on confirmation
+Started At:           2026-11-05T21:10:32.241Z
+Completed At:         2026-11-05T21:10:32.305Z
+Result:               PASSED
+================================================================================
+
+ASSERTIONS:
+  [PASS] CLI announces recorded as INCOMPLETE
+  [PASS] Sat 5 found in PLR doc
+  [PASS] SIG ID cell is styled Green (style=4)
+  [PASS] SIG ID cell has NO text
+  [PASS] Confirm box is styled Red (style=3)
+  [PASS] Confirm box displays Cpl_Jones - INCOMPLETE
+  [PASS] Start time is populated (08:00:00)
+  [PASS] End time is populated (08:20:00)
+
+EXECUTION LOG:
+[2026-11-05T21:10:32.304Z] CLI Output:
+============================================================
+   Post-Launch Requirements (PLR) Verification Program      
+   Visual Studio Code Integrated Terminal Environment       
+============================================================
+
+
+Active Configuration:
+  Task Log:    C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC06_mock.xlsx
+  PLR File:    C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC06_plr.xlsx
+  Operator:    Cpl_Jones
+
+[INFO] PLR document not found. A new one will be created at: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC06_plr.xlsx
+[INFO] Reading task log: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC06_mock.xlsx...
+  Found 1 tasks in log.
+
+
+======================================================================
+ [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET!
+======================================================================
+  Task Number:    #1
+  Satellite:      SIMSAT-05
+  SSC:            51005
+  SPUT:           8888
+  Signal ID:      SIG-1099
+  Start Time:     08:00:00
+  Stop Time:      08:20:00
+----------------------------------------------------------------------
+  [AUTO-CONFIRM] Operator confirmation defaulted to: n
+  -> Status: Requirement recorded: Cpl_Jones - INCOMPLETE
+======================================================================
+
+------------------------------------------------------------
+Processing Summary:
+  Newly Achieved PLR Satellites: 1
+  Subsequent Passes Updated:     0
+  Total Satellites Tracked:      1
+------------------------------------------------------------
+
+[DONE] Successfully updated PLR document: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC06_plr.xlsx
+
+
+  Assertion: CLI announces recorded as INCOMPLETE -> [PASS]
+  Assertion: Sat 5 found in PLR doc -> [PASS]
+  Assertion: SIG ID cell is styled Green (style=4) -> [PASS]
+  Assertion: SIG ID cell has NO text -> [PASS]
+  Assertion: Confirm box is styled Red (style=3) -> [PASS]
+  Assertion: Confirm box displays Cpl_Jones - INCOMPLETE -> [PASS]
+  Assertion: Start time is populated (08:00:00) -> [PASS]
+  Assertion: End time is populated (08:20:00) -> [PASS]
+
+================================================================================

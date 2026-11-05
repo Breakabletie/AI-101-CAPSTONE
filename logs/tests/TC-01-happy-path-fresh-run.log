@@ -1,0 +1,329 @@
+================================================================================
+TEST EXECUTION RECORD: TC-01
+Name:                 happy-path-fresh-run
+Type:                 Happy Path
+Acceptance Criterion: AC 1: Identify newly achieved PLR & record operator accountability
+Started At:           2026-11-05T21:10:31.888Z
+Completed At:         2026-11-05T21:10:31.960Z
+Result:               PASSED
+================================================================================
+
+ASSERTIONS:
+  [PASS] PLR document created at target path
+  [PASS] Workbook contains data rows (20 satellites + 1 header)
+  [PASS] Contains row with CONFIRMED COMPLETED
+  [PASS] SIG ID box is styled green (style=4)
+  [PASS] SIG ID box contains NO text (empty string)
+  [PASS] Confirm box displays operator name and confirmation text
+  [PASS] Start time is populated
+  [PASS] End time is populated
+
+EXECUTION LOG:
+[2026-11-05T21:10:31.888Z] Command: node tools/check_plr_tasks.js --task-log output/2026-11-06.xlsx --plr-doc C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC01_plr.xlsx --operator Sgt_Smith --non-interactive --auto-confirm y
+[2026-11-05T21:10:31.957Z] CLI Output:
+[36m[1m============================================================[0m
+[36m[1m   Post-Launch Requirements (PLR) Verification Program      [0m
+[90m   Visual Studio Code Integrated Terminal Environment       [0m
+[36m[1m============================================================[0m
+
+
+[90mActive Configuration:[0m
+  [1mTask Log:[0m    output/2026-11-06.xlsx
+  [1mPLR File:[0m    C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC01_plr.xlsx
+  [1mOperator:[0m    [32mSgt_Smith[0m
+
+[36m[INFO] PLR document not found. A new one will be created at: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC01_plr.xlsx[0m
+[33m[INFO] Reading task log: output/2026-11-06.xlsx...[0m
+[32m  Found 300 tasks in log.[0m
+
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #2
+  [1mSatellite:[0m      SIMSAT-14
+  [1mSSC:[0m            51014
+  [1mSPUT:[0m           6676
+  [1mSignal ID:[0m      [32m[1mSIG-1001[0m
+  [1mStart Time:[0m     00:12:07
+  [1mStop Time:[0m      00:37:58
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #8
+  [1mSatellite:[0m      SIMSAT-20
+  [1mSSC:[0m            51020
+  [1mSPUT:[0m           5501
+  [1mSignal ID:[0m      [32m[1mSIG-1002[0m
+  [1mStart Time:[0m     00:42:59
+  [1mStop Time:[0m      00:50:28
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #10
+  [1mSatellite:[0m      SIMSAT-16
+  [1mSSC:[0m            51016
+  [1mSPUT:[0m           8607
+  [1mSignal ID:[0m      [32m[1mSIG-1003[0m
+  [1mStart Time:[0m     00:54:04
+  [1mStop Time:[0m      01:18:11
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #25
+  [1mSatellite:[0m      SIMSAT-04
+  [1mSSC:[0m            51004
+  [1mSPUT:[0m           3318
+  [1mSignal ID:[0m      [32m[1mSIG-1004[0m
+  [1mStart Time:[0m     02:30:16
+  [1mStop Time:[0m      02:56:25
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #30
+  [1mSatellite:[0m      SIMSAT-08
+  [1mSSC:[0m            51008
+  [1mSPUT:[0m           7469
+  [1mSignal ID:[0m      [32m[1mSIG-1005[0m
+  [1mStart Time:[0m     02:59:32
+  [1mStop Time:[0m      03:12:00
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #33
+  [1mSatellite:[0m      SIMSAT-10
+  [1mSSC:[0m            51010
+  [1mSPUT:[0m           4952
+  [1mSignal ID:[0m      [32m[1mSIG-1006[0m
+  [1mStart Time:[0m     03:12:55
+  [1mStop Time:[0m      03:33:51
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #41
+  [1mSatellite:[0m      SIMSAT-09
+  [1mSSC:[0m            51009
+  [1mSPUT:[0m           4136
+  [1mSignal ID:[0m      [32m[1mSIG-1008[0m
+  [1mStart Time:[0m     04:05:20
+  [1mStop Time:[0m      04:37:52
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #44
+  [1mSatellite:[0m      SIMSAT-03
+  [1mSSC:[0m            51003
+  [1mSPUT:[0m           1641
+  [1mSignal ID:[0m      [32m[1mSIG-1009[0m
+  [1mStart Time:[0m     04:10:22
+  [1mStop Time:[0m      04:25:50
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #51
+  [1mSatellite:[0m      SIMSAT-02
+  [1mSSC:[0m            51002
+  [1mSPUT:[0m           1595
+  [1mSignal ID:[0m      [32m[1mSIG-1011[0m
+  [1mStart Time:[0m     04:44:56
+  [1mStop Time:[0m      05:02:06
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #63
+  [1mSatellite:[0m      SIMSAT-19
+  [1mSSC:[0m            51019
+  [1mSPUT:[0m           7037
+  [1mSignal ID:[0m      [32m[1mSIG-1014[0m
+  [1mStart Time:[0m     06:05:42
+  [1mStop Time:[0m      06:29:56
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #77
+  [1mSatellite:[0m      SIMSAT-07
+  [1mSSC:[0m            51007
+  [1mSPUT:[0m           2971
+  [1mSignal ID:[0m      [32m[1mSIG-1018[0m
+  [1mStart Time:[0m     07:18:20
+  [1mStop Time:[0m      07:23:47
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #80
+  [1mSatellite:[0m      SIMSAT-13
+  [1mSSC:[0m            51013
+  [1mSPUT:[0m           6447
+  [1mSignal ID:[0m      [32m[1mSIG-1019[0m
+  [1mStart Time:[0m     07:27:12
+  [1mStop Time:[0m      08:02:10
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #82
+  [1mSatellite:[0m      SIMSAT-12
+  [1mSSC:[0m            51012
+  [1mSPUT:[0m           4486
+  [1mSignal ID:[0m      [32m[1mSIG-1020[0m
+  [1mStart Time:[0m     07:47:16
+  [1mStop Time:[0m      07:55:15
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #84
+  [1mSatellite:[0m      SIMSAT-01
+  [1mSSC:[0m            51001
+  [1mSPUT:[0m           9371
+  [1mSignal ID:[0m      [32m[1mSIG-1021[0m
+  [1mStart Time:[0m     07:51:35
+  [1mStop Time:[0m      07:58:56
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #103
+  [1mSatellite:[0m      SIMSAT-11
+  [1mSSC:[0m            51011
+  [1mSPUT:[0m           6789
+  [1mSignal ID:[0m      [32m[1mSIG-1027[0m
+  [1mStart Time:[0m     08:57:47
+  [1mStop Time:[0m      09:19:29
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #112
+  [1mSatellite:[0m      SIMSAT-18
+  [1mSSC:[0m            51018
+  [1mSPUT:[0m           5114
+  [1mSignal ID:[0m      [32m[1mSIG-1031[0m
+  [1mStart Time:[0m     09:40:40
+  [1mStop Time:[0m      10:09:55
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #145
+  [1mSatellite:[0m      SIMSAT-06
+  [1mSSC:[0m            51006
+  [1mSPUT:[0m           7753
+  [1mSignal ID:[0m      [32m[1mSIG-1037[0m
+  [1mStart Time:[0m     12:16:49
+  [1mStop Time:[0m      12:22:47
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[35m======================================================================[0m
+[33m[1m [ALERT] NEW SIGNAL ID DETECTED -- PLR REQUIREMENT MET![0m
+[35m======================================================================[0m
+  [1mTask Number:[0m    #204
+  [1mSatellite:[0m      SIMSAT-17
+  [1mSSC:[0m            51017
+  [1mSPUT:[0m           7590
+  [1mSignal ID:[0m      [32m[1mSIG-1049[0m
+  [1mStart Time:[0m     16:57:21
+  [1mStop Time:[0m      17:02:44
+[35m----------------------------------------------------------------------[0m
+  [90m[AUTO-CONFIRM] Operator confirmation defaulted to: y[0m
+  [32m[1m-> Status: Requirement confirmed: Sgt_Smith - CONFIRMED COMPLETED[0m
+[35m======================================================================[0m
+
+[36m------------------------------------------------------------[0m
+[1mProcessing Summary:[0m
+  [33mNewly Achieved PLR Satellites:[0m 18
+  [36mSubsequent Passes Updated:[0m     42
+  [32mTotal Satellites Tracked:[0m      20
+[36m------------------------------------------------------------[0m
+
+[32m[1m[DONE] Successfully updated PLR document:[0m C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC01_plr.xlsx
+
+
+  Assertion: PLR document created at target path -> [PASS]
+  Assertion: Workbook contains data rows (20 satellites + 1 header) -> [PASS]
+  Assertion: Contains row with CONFIRMED COMPLETED -> [PASS]
+  Assertion: SIG ID box is styled green (style=4) -> [PASS]
+  Assertion: SIG ID box contains NO text (empty string) -> [PASS]
+  Assertion: Confirm box displays operator name and confirmation text -> [PASS]
+  Assertion: Start time is populated -> [PASS]
+  Assertion: End time is populated -> [PASS]
+
+================================================================================

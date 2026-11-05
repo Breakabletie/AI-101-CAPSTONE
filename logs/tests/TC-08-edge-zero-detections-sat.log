@@ -1,0 +1,58 @@
+================================================================================
+TEST EXECUTION RECORD: TC-08
+Name:                 edge-zero-detections-sat
+Type:                 Edge Case
+Acceptance Criterion: AC 8: Zero detections keep RED box, WHITE confirm, and blank times
+Started At:           2026-11-05T21:10:32.370Z
+Completed At:         2026-11-05T21:10:32.434Z
+Result:               PASSED
+================================================================================
+
+ASSERTIONS:
+  [PASS] Reports 0 newly achieved satellites
+  [PASS] SIMSAT-99 exists in PLR tracking table
+  [PASS] SIG ID box is styled Red (style=3)
+  [PASS] SIG ID box has NO text
+  [PASS] Confirm box is styled White (style=5)
+  [PASS] Confirm box is empty
+  [PASS] Start time is completely blank
+  [PASS] End time is completely blank
+
+EXECUTION LOG:
+[2026-11-05T21:10:32.433Z] CLI Output:
+============================================================
+   Post-Launch Requirements (PLR) Verification Program      
+   Visual Studio Code Integrated Terminal Environment       
+============================================================
+
+
+Active Configuration:
+  Task Log:    C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC08_mock_zeros.xlsx
+  PLR File:    C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC08_plr.xlsx
+  Operator:    Sgt_Smith
+
+[INFO] PLR document not found. A new one will be created at: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC08_plr.xlsx
+[INFO] Reading task log: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC08_mock_zeros.xlsx...
+  Found 2 tasks in log.
+
+
+------------------------------------------------------------
+Processing Summary:
+  Newly Achieved PLR Satellites: 0
+  Subsequent Passes Updated:     0
+  Total Satellites Tracked:      1
+------------------------------------------------------------
+
+[DONE] Successfully updated PLR document: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\TC08_plr.xlsx
+
+
+  Assertion: Reports 0 newly achieved satellites -> [PASS]
+  Assertion: SIMSAT-99 exists in PLR tracking table -> [PASS]
+  Assertion: SIG ID box is styled Red (style=3) -> [PASS]
+  Assertion: SIG ID box has NO text -> [PASS]
+  Assertion: Confirm box is styled White (style=5) -> [PASS]
+  Assertion: Confirm box is empty -> [PASS]
+  Assertion: Start time is completely blank -> [PASS]
+  Assertion: End time is completely blank -> [PASS]
+
+================================================================================

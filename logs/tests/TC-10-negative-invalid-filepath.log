@@ -1,0 +1,34 @@
+================================================================================
+TEST EXECUTION RECORD: TC-10
+Name:                 negative-invalid-filepath
+Type:                 Negative
+Acceptance Criterion: AC 10: Graceful handling of invalid or non-existent file paths
+Started At:           2026-11-05T21:10:33.726Z
+Completed At:         2026-11-05T21:10:33.792Z
+Result:               PASSED
+================================================================================
+
+ASSERTIONS:
+  [PASS] Displays warning about nonexistent path
+  [PASS] Fails over cleanly without uncaught exception
+
+EXECUTION LOG:
+[2026-11-05T21:10:33.726Z] Testing nonexistent path: C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\does_not_exist.xlsx
+[2026-11-05T21:10:33.791Z] CLI Output:
+============================================================
+   Post-Launch Requirements (PLR) Verification Program      
+   Visual Studio Code Integrated Terminal Environment       
+============================================================
+
+[WARN] Specified path 'C:\Users\Breakable\Desktop\Projects\AI 101-SupraCoders\AI-CAPSTONE\work\test_runs\does_not_exist.xlsx' not found. Selecting from available logs...
+
+Available Satellite Task Logs in 'output/':
+  [1] 2026-11-07.xlsx (Latest)  (Modified: 2026-11-05 20:11:50)
+  [2] 2026-11-06.xlsx  (Modified: 2026-11-05 18:51:37)
+  [C] Enter a custom file path...
+
+Select task log number [1-2, default: 1]: 
+  Assertion: Displays warning about nonexistent path -> [PASS]
+  Assertion: Fails over cleanly without uncaught exception -> [PASS]
+
+================================================================================
