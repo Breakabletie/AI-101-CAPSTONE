@@ -186,9 +186,10 @@ The capstone runs in seven sections, with an eighth for anyone whose first cycle
 
         1. Implement PLR comparisons and accountability mechanisms
         2. Implement option to select specific date of task log that is to be processed
-        3. Implement User frendly GUI to visualy see program process
-        4. Implement API to pull recent launch information to update the PLR document
-        5.
+        3. Implement tests and checks with logs for each of the tests
+        4. Implement User frendly GUI to visualy see program process
+        5. Implement API to pull recent launch information to update the PLR document
+
 
 
     Record each of these in your working document:
@@ -311,16 +312,28 @@ In your working document, number your tests. Cover the happy path, a boundary, a
     Record each of these in your working document:
 
         What changed — one-paragraph summary
+            The origional project only had base functionality this new pass at the project has added 2 features, the ability to choose between task logs and a test suite.
         Why this change matters
+            The ability to choose what test log you want to run the programon is important to be able to do so that operators can run previous days tasks. The task log is only fully completed and quality controlled the next day.
+            The test suite is a health and wellness tool to track the programs accuracy and diagnose any issues the program might encounter.
         Acceptance criteria addressed
+            The test suite was a nessessary addition as acceptance criteria of the output was human verified after each run. The suite now has a built in test kit so that it can run its out acceptance criteria and if things change the acceptance criteria can be edited through the tests.
         AI-assisted work included
+            The AI assisted work included work on both features with human validation and acceptance.
         Human-authored or human-modified work included
+            Human work included fabricating tests to address key areas and validation and acceptance of AI assisted work on both features.
         Verification notes
+            The AI assisted work needed some slight tweaks and reworks to get what I expressly wanted.
         Test evidence
+            Test evidance can be reviewed under ..\logs\tests\
         Risk callouts and known limitations
+            The program cannot verify if the operator actually completed subsaquent requirements.
         Files, screens, or components that most need review attention
+
         Next slice if work continued
+            GUI, creating a user friendly and easy to use and navigate system to cleanly see files, options, logs, run progress,
         Rollback or fallback considerations, if relevant
+            If operators are failing to complete subsaquent requirements mission leadership will need to review the situation.
 
 # Definition of Done — Section 7
 
