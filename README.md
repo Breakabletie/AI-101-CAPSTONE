@@ -46,5 +46,25 @@ How to Run the Tests
 Test result logs exist under logs/tests/
 
 
+File Structure
 
+AI-101-CAPSTONE
+-docs
+--decisions
+--specs
+-logs
+--tests
+-output
+-prompts
+-sources
+-tasks
+-templates
+-tools
+-work
+--test_runs
+AGENTS.md
+images_for_README
+PROJECT_CHECKLIST.md
+PROJECT.md
+READ.me
 
