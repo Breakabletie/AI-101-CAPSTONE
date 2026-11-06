@@ -8,9 +8,9 @@ Operators are often task saturated and rarely have the ability to verify post la
 
 1. Create a copy of this repo and instal it to your local machine.
 2. Open the project in VS code
-3. Run 'powershell -ExecutionPolicy Bypass -File tools/generate_satellite_tasks.ps1 -- runs the script to generate new task lists' in the VS code terminal to generate a new dummy list of satallite tasks
-      this is optional as a dummy satallite task list exists in this project already
-4. Run 'node tools/check_plr_tasks.js' in the VS code terminal to run the program
+3. Run   'powershell -ExecutionPolicy Bypass -File tools/generate_satellite_tasks.ps1'   -- runs the script to generate new task lists' in the VS code terminal to generate a new dummy list of satallite tasks
+      a. this is optional as a dummy satallite task list exists in this project already
+4. Run   'node tools/check_plr_tasks.js'   in the VS code terminal to run the program
 5. If new post launch requirements are achieved it will prompt you with a response to completing subsaquent post launch requirements
 6. End of program run time
 7. Check post_launch_requirements.xlsx under the output folder if you would like a visual of the tracked requirements and accountability of subsaquent requirement completion

@@ -1,7 +1,7 @@
 ﻿{
-    "LastDate":  "2026-11-07",
-    "NextSatIndex":  25,
-    "NextSignalIndex":  1121,
+    "LastDate":  "2026-11-08",
+    "NextSatIndex":  29,
+    "NextSignalIndex":  1196,
     "Satellites":  [
                        {
                            "Name":  "SIMSAT-01",
@@ -98,7 +98,23 @@
                        {
                            "Name":  "SIMSAT-24",
                            "SSC":  51024
+                       },
+                       {
+                           "Name":  "SIMSAT-25",
+                           "SSC":  51025
+                       },
+                       {
+                           "Name":  "SIMSAT-26",
+                           "SSC":  51026
+                       },
+                       {
+                           "Name":  "SIMSAT-27",
+                           "SSC":  51027
+                       },
+                       {
+                           "Name":  "SIMSAT-28",
+                           "SSC":  51028
                        }
                    ],
-    "RunCount":  2
+    "RunCount":  3
 }
